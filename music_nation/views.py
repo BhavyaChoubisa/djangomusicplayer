@@ -67,7 +67,6 @@ def album_detail(request,username, album):
 
 #........................................................#
 
-#can create new user but can't handle existing user
 def signup(request):
 
     if request.method == 'POST':
